@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+h2 {
+  font-size: 1rem;
+}
+.top-block {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 a {
+  margin-right: 5px;
+}
+.news {
+  width: 70%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.news h2 {
+  display: inline;
+  margin-right: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.date {
+  font-size: 0.8rem;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.list-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #bbbbbb;
+  margin-right: 5px;
+}
+
+.teaser img {
+  width: 120px;
+  height: 70px;
+}
+
+.columns {
+  display: flex;
+}
+
+.search {
+  margin-bottom: 10px;
+}
+
+.search a {
+  margin-right: 10px;
+}
+
+.search .input-text {
+  width: 60%;
+}
+
+.banner {
+  height: 60px;
+  width: 60%;
+  border: 1px solid;
+}
+
+.weather {
+  margin-bottom: 10px;
+}
+
+.temperature {
+  display: flex;
+  align-items: center;
+}
+
+.weather-future {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.text {
+  color: #808080;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tv h2 {
+  display: inline;
 }
